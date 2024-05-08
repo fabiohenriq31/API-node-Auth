@@ -19,7 +19,7 @@ O sistema de autenticação e cadastro permite que usuários se registrem, faça
 
 1. Clone este repositório:
 
-git clone https://github.com/fabiohenriq31/API-node-Auth.git
+git clone [https://github.com/fabiohenriq31/API-node-Auth.git](https://github.com/fabiohenriq31/Authenticator-Node-Project.git)
 
 
 2. Instale as dependências:
