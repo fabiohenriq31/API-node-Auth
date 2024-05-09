@@ -107,7 +107,6 @@ app.post('/auth/register', async(req,res) => {
 app.post('/auth/login', async (req, res) => {
 
   const { email, password } = req.body
-  console.log('teste ',email, password)
   if(!email) {
     return res.status(422).json({msg: 'E-mail invalido!'})
   }
@@ -136,7 +135,6 @@ app.post('/auth/login', async (req, res) => {
       },
       secret,
     )
-    console.log('ok')
     res.status(200).json({msg: 'Autenticação realizada com sucesso', token})
   } catch(err){
     console.log(err)
